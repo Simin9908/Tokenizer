@@ -1,0 +1,5 @@
+1. A collection of alphanumeric characters, dollar signs, hyphens, underscores are recognized as tokens
+2. Any other not word characters are a set of seperate tokens (these will be split if they have any of the tokens from point 1 between them or if they have space)
+3. Space or empty strings should not be a part of your output
+
+The idea is to build a basic tokenizer and understand what poissble logical limiations you can come across because of them
